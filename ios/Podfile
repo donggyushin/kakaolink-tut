@@ -23,7 +23,11 @@ target 'KOLink' do
   post_install do |installer|
     flipper_post_install(installer)
   end
+
+  
 end
+
+
 
 target 'KOLink-tvOS' do
   # Pods for KOLink-tvOS
