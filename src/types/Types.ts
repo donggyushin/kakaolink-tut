@@ -34,3 +34,12 @@ export type CommerceDetailObject = {
  discountRate?: number, //optional
  fixedDiscountPrice?: number //optional
 };
+
+export type ObjectType = "feed"
+
+export type FeedTemplate = {
+ objectType: ObjectType, //required
+ content: ContentObject, //required
+ social?: SocialObject, //optional
+ buttons?: Array<ButtonObject> //optional
+};
