@@ -8,13 +8,13 @@
  * @format
  */
 
-import React from 'react';
 import {
+  Button,
   SafeAreaView,
-  StatusBar,
-  Button
+  StatusBar
 } from 'react-native';
 
+import React from 'react';
 
 declare const global: { HermesInternal: null | {} };
 
