@@ -8,6 +8,8 @@ target 'KOLink' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+  pod 'KakaoOpenSDK', '~> 1.21.0'
+
   target 'KOLinkTests' do
     inherit! :complete
     # Pods for testing
